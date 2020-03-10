@@ -2,7 +2,7 @@ node {
    def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git poll: true, url: 'https://github.com/TriveniAlekhya/simple-maven-project-with-tests.git'
+      git poll: true, url: 'https://github.com/AT5020/simple-maven-project-with-tests.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
